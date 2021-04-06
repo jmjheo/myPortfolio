@@ -70,6 +70,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .item {
   border: none;
   margin-bottom: 30px;
+  display: flex;  
+  flex-wrap: wrap;
 }
 
 .item .item-wrap {
@@ -492,4 +494,15 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .social a:hover {
   color: #000;
+}
+
+.videoDim {
+  max-height: 500px;
+  max-width: 281px;
+}
+
+.medContainer {
+  max-width: 900px;
+  margin: 0 auto;
+
 }
